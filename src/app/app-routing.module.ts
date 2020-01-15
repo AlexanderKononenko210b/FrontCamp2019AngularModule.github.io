@@ -9,12 +9,12 @@ import { NotFoundComponent } from "./components/shared/not-found/not-found.compo
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '', pathMatch: 'full' },
-  { path: '', component: AppComponent },
-  { path: 'menu', component: MainViewComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: '404', component: NotFoundComponent },
-  { path: '**', redirectTo: '/404' }
+  { path: 'FrontCamp2019AngularModule.github.io', redirectTo: '', pathMatch: 'full' },
+  { path: 'FrontCamp2019AngularModule.github.io', component: AppComponent },
+  { path: 'FrontCamp2019AngularModule.github.io/menu', component: MainViewComponent },
+  { path: 'FrontCamp2019AngularModule.github.io/contact', component: ContactComponent },
+  { path: 'FrontCamp2019AngularModule.github.io/404', component: NotFoundComponent },
+  { path: '**', redirectTo: 'FrontCamp2019AngularModule.github.io/404' }
 ];
 
 @NgModule({
