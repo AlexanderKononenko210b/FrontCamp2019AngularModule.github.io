@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-sidenav #sidenav class=\"sidenav\" mode=\"side\" opened=\"true\" (mouseenter)=\"mouseenter()\" (mouseleave)=\"mouseleave()\">\n\t<button mat-icon-button (click)=\"isExpanded = !isExpanded\"><mat-icon></mat-icon></button>\n\t<mat-nav-list>\n\t\t<mat-list-item (click)=\"showSubmenu = !showSubmenu\" class=\"parent\">\n\t\t\t<span class=\"full-width\" *ngIf=\"isExpanded || isShowing\">Menu</span>\n\t\t\t<mat-icon class=\"menu-button\" [ngClass]=\"{'rotated' : showSubmenu}\" *ngIf=\"isExpanded || isShowing\"></mat-icon>\n\t\t</mat-list-item>\n\t\t<div class=\"submenu\" [ngClass]=\"{'expanded' : showSubmenu}\" *ngIf=\"isShowing || isExpanded\">\n\t\t\t<a mat-list-item href=\"/menu\">Main view</a>\n\t\t\t<a mat-list-item href=\"/contact\">Contact</a>\n\t\t</div>\n\t</mat-nav-list>\n</mat-sidenav>\n";
+    __webpack_exports__["default"] = "<mat-sidenav #sidenav class=\"sidenav\" mode=\"side\" opened=\"true\" (mouseenter)=\"mouseenter()\" (mouseleave)=\"mouseleave()\">\n\t<button mat-icon-button (click)=\"isExpanded = !isExpanded\"><mat-icon></mat-icon></button>\n\t<mat-nav-list>\n\t\t<mat-list-item (click)=\"showSubmenu = !showSubmenu\" class=\"parent\">\n\t\t\t<span class=\"full-width\" *ngIf=\"isExpanded || isShowing\">Menu</span>\n\t\t\t<mat-icon class=\"menu-button\" [ngClass]=\"{'rotated' : showSubmenu}\" *ngIf=\"isExpanded || isShowing\"></mat-icon>\n\t\t</mat-list-item>\n\t\t<div class=\"submenu\" [ngClass]=\"{'expanded' : showSubmenu}\" *ngIf=\"isShowing || isExpanded\">\n\t\t\t<a mat-list-item href=\"/FrontCamp2019AngularModule.github.io/menu\">Main view</a>\n\t\t\t<a mat-list-item href=\"/FrontCamp2019AngularModule.github.io/contact\">Contact</a>\n\t\t</div>\n\t</mat-nav-list>\n</mat-sidenav>\n";
     /***/
   },
 
@@ -802,24 +802,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/components/shared/not-found/not-found.component.ts");
 
     var routes = [{
-      path: '',
+      path: 'FrontCamp2019AngularModule.github.io',
       redirectTo: '',
       pathMatch: 'full'
     }, {
-      path: '',
+      path: 'FrontCamp2019AngularModule.github.io',
       component: _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]
     }, {
-      path: 'menu',
+      path: 'FrontCamp2019AngularModule.github.io/menu',
       component: _components_main_view_main_view_component__WEBPACK_IMPORTED_MODULE_5__["MainViewComponent"]
     }, {
-      path: 'contact',
+      path: 'FrontCamp2019AngularModule.github.io/contact',
       component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"]
     }, {
-      path: '404',
+      path: 'FrontCamp2019AngularModule.github.io/404',
       component: _components_shared_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_7__["NotFoundComponent"]
     }, {
       path: '**',
-      redirectTo: '/404'
+      redirectTo: 'FrontCamp2019AngularModule.github.io/404'
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
